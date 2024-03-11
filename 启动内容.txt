@@ -1,0 +1,48 @@
+启动
+E:\40 软件项目\7 招商臻选平台报告\code\DTcms.Core\DTcms.Core.API\bin\Debug\net6.0
+输入cmd
+输入
+	dotnet DTcms.Core.API.dll --urls="http://*:10011"
+
+
+查看本机 dotnet --info
+
+
+net stop was /y
+
+net start w3svc
+
+
+dotnet-win-x64.1.1.1.exe  and  DotNetCore.1.0.4_1.1.1-WindowsHosting.exe
+
+dotnet-hosting-6.0.10-win.exe
+
+
+如果：.netcore web部署之后访问报错HTTP Error 500.31 - ANCM Failed to Find Native Dependencies
+删除webconfig中的配置，hostingModel="InProcess"即可；hostingModel="InProcess"代表进程内托管，asp.net代码发布之后默认是在IIS中托管，.netcore是无托管代码的，明白这一点就懂了。
+
+
+
+如果：HTTP Error 502.5 - ANCM Out-Of-Process Startup Failure
+
+比较详细的介绍
+http://681314.com/A/V64p72hXFA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
